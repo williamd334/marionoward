@@ -31,7 +31,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 29, 128, 159;
+  --bs-primary-rgb: 255, 255, 255; /* controls the contact section color */ 
   --bs-secondary-rgb: 236, 184, 7;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -50,8 +50,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #cffefe; /* changes the color of the scholarship container section */ 
+  --bs-body-color: #262921;
+  --bs-body-bg: #f2e9e9; /* changes the color of the Marion D. Howard scholarship  section */ 
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -62,7 +62,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1D809F;
+  --bs-link-color: #749f1d;
   --bs-link-hover-color: #17667f;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fbf1cd;
@@ -2841,11 +2841,11 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #1D809F;
-  --bs-btn-border-color: #1D809F;
+  --bs-btn-color: #181414; /* changes the font text color of button */ 
+  --bs-btn-bg: #d8c6f5; /* changes the color to the marion howard mailing list notif */
+  --bs-btn-border-color: #d8c6f5;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #196d87;
+  --bs-btn-hover-bg: #b999ed;
   --bs-btn-hover-border-color: #17667f;
   --bs-btn-focus-shadow-rgb: 63, 147, 173;
   --bs-btn-active-color: #fff;
@@ -2944,7 +2944,7 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
+  --bs-btn-bg: #e7ced5;
   --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #d3d4d5;
@@ -10828,7 +10828,7 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 4.5rem;
   padding-bottom: 7.5rem;
 }
 
@@ -11065,15 +11065,28 @@ footer.footer .social-link:hover {
   display: flex; /* Aligns items in a row */
   justify-content: center; /* Centers the images horizontally */
   gap: 10px; /* Adds space between the images */
+  flex-wrap: wrap; /* Allows items to wrap onto a new line on smaller screens */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .image-item-mh {
-  width: 400px; /* Set a fixed width for each image */
-  height: auto; /* Maintain the aspect ratio */
-  max-height: 350px; /* Optional: Limit the height */
+  width: 350px; /* Set a fixed width for each image */
+  height: 380px; /* Set a fixed height for each image */
   border: 2px solid #ccc; /* Optional: Adds a border */
   border-radius: 5px; /* Optional: Adds rounded corners */
+  object-fit: cover; /* Ensures the image fills the area while maintaining its aspect ratio */
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .image-item-mh {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 320px; /* Limit the maximum width */
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}
+
+
 
 .row {
   display: flex;
