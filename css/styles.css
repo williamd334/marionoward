@@ -10970,7 +10970,7 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 footer.footer .social-link {
@@ -11033,14 +11033,14 @@ footer.footer .social-link:hover {
 }
 
 .mh-page {
-  min-height: 30rem;
+  min-height: 40rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 5rem;
+  padding-top: 60rem;
   padding-bottom: 5rem;
-  background: url("../assets/img/mh-logo.jpeg");
+  background: url("../assets/img/mh-logo.jpg");
   background-color: #FFE6E6;
   background-position: center center;
   background-repeat: no-repeat;
