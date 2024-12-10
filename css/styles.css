@@ -2943,11 +2943,11 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #e7ced5;
+  --bs-btn-color: #000; /* controls the text color of the scholarship info email button */ 
+  --bs-btn-bg: #b3faf8; /* controls the color of the button for info email */ 
   --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d3d4d5;
+  --bs-btn-hover-bg: #86f6f3;
   --bs-btn-hover-border-color: #c6c7c8;
   --bs-btn-focus-shadow-rgb: 211, 212, 213;
   --bs-btn-active-color: #000;
@@ -11040,7 +11040,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: url("../assets/img/mh-logo.jpg");
+  background: url("../assets/img/mh-logo.jpeg");
   background-color: #FFE6E6;
   background-position: center center;
   background-repeat: no-repeat;
