@@ -2841,12 +2841,12 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #181414; /* changes the font text color of button */ 
-  --bs-btn-bg: #d8c6f5; /* changes the color to the marion howard mailing list notif */
+  --bs-btn-color: #fff; /* changes the font text color of button */ 
+  --bs-btn-bg: #6c8ced; /* changes the color to the marion howard mailing list notif */
   --bs-btn-border-color: #d8c6f5;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #b999ed;
-  --bs-btn-hover-border-color: #17667f;
+  --bs-btn-hover-color: #e9eaf5;
+  --bs-btn-hover-bg: #8ea8f6;
+  --bs-btn-hover-border-color: #8ea8f6;
   --bs-btn-focus-shadow-rgb: 63, 147, 173;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #17667f;
@@ -2943,12 +2943,12 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  --bs-btn-color: #000; /* controls the text color of the scholarship info email button */ 
-  --bs-btn-bg: #b3faf8; /* controls the color of the button for info email */ 
-  --bs-btn-border-color: #f8f9fa;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #86f6f3;
-  --bs-btn-hover-border-color: #c6c7c8;
+  --bs-btn-color: #fff; /* controls the text color of the scholarship info email button */ 
+  --bs-btn-bg: #6c8ced; /* controls the color of the button for info email */ 
+  --bs-btn-border-color: #d8c6f5;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #8ea8f6;
+  --bs-btn-hover-border-color: #8ea8f6;
   --bs-btn-focus-shadow-rgb: 211, 212, 213;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #c6c7c8;
@@ -10874,7 +10874,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #dd8188; /* color of the nav side bar */ 
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11033,13 +11033,13 @@ footer.footer .social-link:hover {
 }
 
 .mh-page {
-  min-height: 40rem;
+  min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 60rem;
-  padding-bottom: 5rem;
+  padding-top: 20rem;
+  padding-bottom: 8rem;
   background: url("../assets/img/mh-logo.jpg");
   background-color: #FFE6E6;
   background-position: center center;
